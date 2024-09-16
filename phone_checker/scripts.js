@@ -5,7 +5,6 @@ const results = document.getElementById('results-div');
 
 const checkValidNumber = (input) => {
     results.innerHTML = '';
-    alert('Please provide a phone number');
     if (input === '') {
         results.textContent = '';
         const error = document.createElement('p');
